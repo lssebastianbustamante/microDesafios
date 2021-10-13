@@ -1,10 +1,10 @@
-const fs = require('fs');
+const funcionesTareas = require('./funciones/funcionesTareas')
 const argumentos = process.argv[2];
 
 
 switch (argumentos) {
     case "listar":
-        const tareas = JSON.parse(fs.readFileSync('./archivoJson/tareas.json', 'utf-8'));
+        let tareas = funcionesTareas.obtenerTareas();
         tareas.forEach(element => {
             console.log(element.titulo)
         });
