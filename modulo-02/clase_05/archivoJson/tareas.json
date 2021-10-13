@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Leer",
+        "estado": "progreso"
+    },
+    {
+        "titulo": "Estudiar",
+        "estado": "progreso"
+    },
+    {
+        "titulo": "Caminar",
+        "estado": "progreso"
+    },
+    {
+        "titulo": "Regar",
+        "estado": "progreso"
+    },
+    {
+        "titulo": "Trabajar",
+        "estado": "progreso"
+    }
+]
